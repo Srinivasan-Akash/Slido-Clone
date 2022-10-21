@@ -1,0 +1,74 @@
+.register {
+    display: flex;
+}
+
+.mainPanel-host {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+}
+
+.registerForm {
+    width: 30vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.logInBySocialMedia{
+    margin-top: 5%;
+    width: 90%;
+}
+
+.logInBySocialMedia button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    column-gap: 1em;
+    padding: .5em 2em .5em 1em;
+    margin-top: 5%;
+}
+
+.loginLink {
+    color: blue;
+}
+
+.sidePanel-participant {
+    background-color: #39AE37;
+    width: 30%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+}
+
+
+
+.form {
+    background-color: #fff;
+    border-radius: 100px;
+    padding: 1.5% 1em;
+    color: #39AE37;
+    font-weight: 800;
+    margin-top: 5%;
+}
+
+.form button {
+    background-color: #39AE37;
+    border: none;
+    color: #fff;
+    padding: .5em;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+.form input {
+    border: none;
+    outline: none;
+    padding: 0 1em;
+}

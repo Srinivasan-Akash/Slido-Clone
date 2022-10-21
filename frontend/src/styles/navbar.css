@@ -1,0 +1,43 @@
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5% 2.5%;
+    box-shadow: 0 0.125rem 0.125rem rgb(0 0 0 / 10%);
+}
+
+.logo {
+    color: #39AC37;
+    font-size: 2em;
+    font-weight: bolder;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+}
+
+li {
+    padding-right: 10%;
+    font-size: 1em;
+}
+
+.btns button {
+    font-size: 1em;
+    margin: 0 .5rem; 
+}
+
+.btns button:nth-child(1) {
+    border: none;
+    border-radius: 5px;
+    background-color: transparent;
+    padding: 10px 20px;
+}
+
+.btns button:nth-child(2) {
+    background-color: #39AC37;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+}

@@ -1,0 +1,88 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    margin-top: -2%;
+}
+
+.participant {
+    display: flex;
+    align-items: center;
+    background-color: #1A73E8;
+    padding: .5% .5% .5% 2.5%;
+    border-radius: 100px;
+}
+
+.participant h3 {
+    color: #fff;
+    font-weight: 500;
+    margin-right: 2.5em;
+}
+
+.participant form {
+    background-color: #fff;
+    border-radius: 100px;
+    padding: 1.5% 1em;
+    color: #1A73E8;
+    font-weight: 800;
+}
+
+.participant form button {
+    background-color: #1A73E8;
+    border: none;
+    color: #fff;
+    padding: .5em;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+.participant form input {
+    border: none;
+    outline: none;
+    padding: 0 1em;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 2%;
+}
+
+.main h1 {
+    font-size: 4em;
+    font-weight: 600;
+    width: 80%;
+    text-align: center;
+    line-height: 1;
+}
+
+.main article {
+    font-size: 1.2rem;
+    width: 55%;
+    margin-top: 2%;
+}
+
+.btns-home button {
+    font-size: 1em;
+    margin: 1.5rem .5rem; 
+    cursor: pointer;
+}
+
+.btns-home button:nth-child(1) {
+    background-color: #39AC37;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 20px 40px;
+}
+
+.btns-home button:nth-child(2) {
+    border: none;
+    border-radius: 5px;
+    background-color: transparent;
+    padding: 20px 40px;
+}
