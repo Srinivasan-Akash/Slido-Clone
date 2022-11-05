@@ -32,6 +32,7 @@
     margin-top: 5%;
 }
 
+
 .loginLink {
     color: blue;
 }
@@ -48,14 +49,15 @@
 }
 
 
-
 .form {
     background-color: #fff;
     border-radius: 100px;
     padding: 1.5% 1em;
+    display: flex;
+    align-items: center;
     color: #39AE37;
-    font-weight: 800;
     margin-top: 5%;
+    font-weight: 800;
 }
 
 .form button {
@@ -68,7 +70,7 @@
 }
 
 .form input {
-    border: none;
-    outline: none;
+    border: none !important;
+    outline: none !important;
     padding: 0 1em;
 }
